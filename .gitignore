@@ -1,0 +1,17 @@
+/admin/node_modules
+/admin/public/hot
+/admin/public/storage
+/admin/storage/*.key
+/admin/vendor
+/admin/.env
+/admin/.env.backup
+/admin/.phpunit.result.cache
+/admin/docker-compose.override.yml
+/admin/Homestead.json
+/admin/Homestead.yaml
+/admin/npm-debug.log
+/admin/yarn-error.log
+/.idea
+/.vscode
+/bot/msp/vendor
+/bot/eddy/vendor

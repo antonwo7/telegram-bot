@@ -1,0 +1,19 @@
+{
+    "name": "g532/first",
+    "authors": [
+        {
+            "name": "Anton Babeshko",
+            "email": "antonwo7@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-curl": "^7.4",
+        "ext-mbstring": "^7.4",
+        "ext-json": "^7.4",
+        "ext-redis": "*",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "classmap": ["classes"]
+    }
+}

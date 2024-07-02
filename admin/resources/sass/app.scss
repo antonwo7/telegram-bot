@@ -1,0 +1,109 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body{
+    background: #fefefe;
+}
+
+table{
+    tr{
+        th{
+            padding: 0.5rem 1rem !important;
+        }
+        td{
+            vertical-align: middle;
+            padding: 0.5rem 1rem !important;
+
+            &.min{
+                width:1%;
+            }
+
+            .btn-group{
+                .btn{
+                    margin:0 4px 0 0;
+                }
+            }
+        }
+    }
+}
+
+.panel{
+    background: #eee;
+}
+
+.bg-dark{
+    background: #343a40 !important;
+}
+
+.navbar-brand{
+    font-size: 0.9rem;
+    margin-right: 0;
+    margin-left: 1rem;
+
+    &:first-child{
+        margin-left: 0;
+    }
+}
+
+.navbar-dark .navbar-nav .active .nav-link{
+    color: #fff;
+}
+
+.page-item .page-link{
+    color: #686868;
+}
+.page-item.active .page-link{
+    background: #cce5ff;
+    color: #686868;
+    border-color: #686868;
+}
+
+.btn-secondary {
+    color: #040505;
+    background-color: #cce5ff;
+}
+.modal-backdrop{
+    display: none;
+}
+
+.form-group{
+    margin: 0.6rem 0;
+}
+
+form{
+    &.form-button{
+        align-self: baseline;
+        margin-top: -10px;
+        margin-left: -10px;
+        z-index: 2;
+
+        button{
+            &.close{
+                border: 0;
+                border-radius: 50%;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                width: 20px;
+                align-self: baseline;
+                height: 20px;
+                cursor: pointer;
+                text-decoration: none;
+                color: #040505;
+                background-color: #cce5ff;
+                text-align: center;
+
+                &:hover{
+                    color: #fff;
+                    background-color: #5c636a;
+                }
+            }
+        }
+    }
+}
